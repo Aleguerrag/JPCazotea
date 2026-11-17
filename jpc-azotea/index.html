@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Azotea · En el Pacífico, el futuro se siembra en alto — Juntos por Colombia</title>
+<meta name="description" content="Un reportaje interactivo sobre Azotea: lugares fijos, abiertos todo el año, donde niñas, niños y jóvenes del litoral Pacífico colombiano aprenden de sus mayores y siembran su futuro.">
+<meta property="og:title" content="Azotea · En el Pacífico, el futuro se siembra en alto">
+<meta property="og:description" content="Lo que llega en lancha, se va. Lo que se siembra en alto, se queda. Una iniciativa de Juntos por Colombia.">
+<meta property="og:image" content="assets/video/poster.jpg">
+<meta name="theme-color" content="#2A0E14">
+<link rel="preload" href="assets/fonts/bonum-bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="assets/img/brote.png">
+<link rel="stylesheet" href="css/scrolly.css">
+</head>
+<body>
+<div class="progreso" aria-hidden="true"><span></span></div>
+<header class="top">
+  <a href="#inicio" class="top__logo"><img src="assets/img/logo-jpc.png" alt="Juntos por Colombia"></a>
+  <ol class="top__caps" aria-label="Capítulos">
+    <li><a href="#c1" title="Creces entre saberes">1</a></li>
+    <li><a href="#c2" title="Lo que llega, se va">2</a></li>
+    <li><a href="#c3" title="Un lugar que se queda">3</a></li>
+    <li><a href="#c4" title="Tu ruta">4</a></li>
+    <li><a href="#c5" title="Quien enseña, cobra">5</a></li>
+    <li><a href="#c6" title="2030">6</a></li>
+  </ol>
+  <button class="btn btn--sm abre-video">▶ video</button>
+</header>
+
+<main>
+<!-- =========================================================
+     APERTURA · gancho + marea que sube con el scroll
+     ========================================================= -->
+<section id="inicio" class="apertura">
+  <canvas class="lluvia" aria-hidden="true"></canvas>
+  <div class="apertura__in">
+    <p class="kicker">Juntos por Colombia presenta</p>
+    <h1 class="gancho"><span>En el Pacífico,</span> <span>el futuro se siembra</span> <em>en alto.</em></h1>
+    <button class="btn abre-video">▶ Ver la historia en 90 segundos</button>
+    <p class="pista">o baja con la marea ↓</p>
+  </div>
+</section>
+
+<section class="escena escena--marea" data-scrub="marea" aria-label="La marea sube">
+  <div class="escena__fija">
+    <svg class="marea" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMax meet" role="img" aria-label="Una huerta en el suelo queda bajo el agua mientras la azotea, sobre pilotes, sigue seca">
+      <defs><clipPath id="clip-suelo"><rect x="0" y="0" width="1200" height="700"/></clipPath></defs>
+      <g class="m-suelo">
+        <rect x="70" y="560" width="380" height="40" rx="8" fill="#3d2414"/>
+        <image href="assets/img/brote.png" x="100" y="470" width="105" height="80"/>
+        <image href="assets/img/planta-fruto.png" x="215" y="400" width="90" height="155"/>
+        <image href="assets/img/brote.png" x="320" y="470" width="105" height="80"/>
+      </g>
+      <image class="m-azotea" href="assets/img/azotea-alta.png" x="640" y="70" width="520" height="480"/>
+      <rect class="m-agua" x="-1400" y="600" width="4000" height="400"/>
+      <path class="m-ola" d="M-1600 600 q50 -18 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 M-200 600 q50 -18 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0"/>
+    </svg>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>En el litoral, la marea sube y baja todos los días.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>Lo que se siembra en el suelo, el agua se lo lleva.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p>Por eso las familias levantan la <strong>azotea</strong>: una huerta sobre pilotes, para cuidar en alto lo que más quieren.</p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p>Esta es una historia sobre eso: <strong>cómo sembrar en alto el futuro</strong> de las niñas, niños y jóvenes del Pacífico. Y empieza contigo.</p></div></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CAPÍTULO 1 · Creces entre saberes (amanecer cálido)
+     ========================================================= -->
+<section id="c1" class="portada portada--amanecer">
+  <p class="portada__num" aria-hidden="true">01</p>
+  <h2 class="portada__tit" data-palabras>Tienes doce años</h2>
+  <p class="portada__entra">Imagina que naciste en Buenaventura. Desde aquí, esta historia es la tuya.</p>
+</section>
+
+<section class="escena escena--saberes" data-pasos aria-label="Los saberes que te rodean">
+  <div class="escena__fija">
+    <div class="saberes">
+      <img class="saberes__centro" src="assets/img/azotea-alta.png" alt="">
+      <figure class="saber" data-s="1-"><img src="assets/img/marimba.png" alt=""><figcaption>marimba</figcaption></figure>
+      <figure class="saber" data-s="2-"><img src="assets/img/ave.png" alt="" class="inv"><figcaption>alabaos</figcaption></figure>
+      <figure class="saber" data-s="3-"><img src="assets/img/hojas-sol.png" alt=""><figcaption>partería</figcaption></figure>
+      <figure class="saber" data-s="3-"><img src="assets/img/viche.png" alt=""><figcaption>viche</figcaption></figure>
+      <figure class="saber" data-s="3-"><img src="assets/img/planta-fruto.png" alt=""><figcaption>cocina de matronas</figcaption></figure>
+    </div>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>Creces oyendo la <strong>marimba</strong> en las fiestas del barrio.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>Has escuchado los <strong>alabaos</strong>, los cantos con que tu comunidad despide a los suyos.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p>A tu alrededor hay <strong>parteras</strong>, maestros del <strong>viche</strong> y <strong>matronas</strong> que cocinan como nadie. Son saberes de generaciones.</p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p>El Pacífico no es pobre en valor. <strong>Le faltan maneras de retenerlo.</strong></p></div></div>
+  </div>
+</section>
+<div class="testimonios" data-capitulo="1" hidden></div>
+
+<!-- =========================================================
+     CAPÍTULO 2 · Lo que llega, se va (día gris, papel)
+     ========================================================= -->
+<section id="c2" class="portada portada--papel">
+  <p class="portada__num" aria-hidden="true">02</p>
+  <h2 class="portada__tit" data-palabras>Lo que llega, se va</h2>
+  <p class="portada__entra">Talleres, brigadas, jornadas. Llegan en lancha, dejan algo y se van.</p>
+</section>
+
+<section class="escena escena--anio claro" data-pasos aria-label="Un año de programas esporádicos">
+  <div class="escena__fija">
+    <div class="anio">
+      <div class="anio__meses" aria-hidden="true"></div>
+      <svg class="lancha" viewBox="0 0 200 70" aria-hidden="true"><path d="M10 30 H190 L170 60 H30 Z" fill="#6B3B22"/><rect x="80" y="12" width="50" height="18" rx="3" fill="#9C1228"/><path d="M0 64 q25 -8 50 0 t50 0 t50 0 t50 0" stroke="#2E8C83" stroke-width="5" fill="none"/></svg>
+      <p class="sello" data-s="4-">esporádico</p>
+      <p class="anio__cuenta"><b class="anio__n">0</b> de 12 meses con acompañamiento</p>
+    </div>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>En marzo llega un taller a tu colegio.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>En julio, una brigada. Del taller de marzo ya nadie se acuerda.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p>En noviembre, una jornada. Entre una lancha y la siguiente, todo se enfría.</p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p>Los cuatro diagnósticos del litoral repiten la misma palabra.</p></div></div>
+  </div>
+</section>
+
+<section class="escena escena--unidades claro" data-pasos aria-label="De cada 100 jóvenes, cuántos llegan a la media">
+  <div class="escena__fija">
+    <div class="unidades">
+      <p class="unidades__tit">De cada <b>100</b> jóvenes en edad de cursar la media…</p>
+      <div class="unidades__grilla" aria-hidden="true"></div>
+      <p class="unidades__res" aria-live="polite"></p>
+    </div>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>Llegas a noveno. El siguiente escalón, décimo, es donde muchos se quedan.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>En Colombia, de cada 100 jóvenes en edad de cursar la media, <strong><span data-dato="cobertura_media.nacional" data-redondo></span> están matriculados en ella</strong>.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p>En Buenaventura, <strong><span data-dato="cobertura_media.buenaventura" data-redondo></span></strong>. Dos de cada tres no están en el aula que les corresponde.</p><p class="fuente-sello" data-fuente="icesi"></p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p>Y del otro lado, <strong>el saber de los mayores se queda sin aprendices</strong>.</p></div></div>
+  </div>
+</section>
+<div class="testimonios" data-capitulo="2" hidden></div>
+
+<!-- =========================================================
+     CAPÍTULO 3 · Un lugar que se queda (rueda de 12 meses)
+     ========================================================= -->
+<section id="c3" class="portada portada--teal">
+  <p class="portada__num" aria-hidden="true">03</p>
+  <h2 class="portada__tit" data-palabras>Un lugar que se queda</h2>
+  <p class="portada__entra">Azotea es lo contrario a la lancha.</p>
+</section>
+
+<section class="escena escena--rueda" data-scrub="rueda" data-pasos aria-label="Azotea abierta los doce meses">
+  <div class="escena__fija">
+    <div class="rueda">
+      <svg viewBox="0 0 600 600" aria-hidden="true"><g class="rueda__meses"></g></svg>
+      <img src="assets/img/azotea-alta.png" alt="" class="rueda__azotea">
+      <p class="rueda__n"><b>0</b><span>meses abiertos</span></p>
+    </div>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>Imagina un lugar que <strong>no se va</strong>: abierto los doce meses del año.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>En una sede que tu comunidad ya reconoce como suya, casi siempre tu propio colegio.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p><strong>Nada se abre sin la comunidad.</strong> Cada sede pasa por un protocolo de activación con dos co-investigadores jóvenes del territorio.</p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p>La primera Azotea abre en <strong>Buenaventura</strong>, en 2027.</p></div></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CAPÍTULO 4 · Tu ruta (línea de tiempo horizontal)
+     ========================================================= -->
+<section id="c4" class="portada portada--verde">
+  <p class="portada__num" aria-hidden="true">04</p>
+  <h2 class="portada__tit" data-palabras>Tu ruta, de semilla a cosecha</h2>
+  <p class="portada__entra">De los 8 a los 28 años, la siembra tiene tres tramos. Este es el tuyo.</p>
+</section>
+
+<section class="horizontal" data-scrub="horizontal" aria-label="Los tres tramos de la ruta">
+  <div class="horizontal__fija">
+    <div class="horizontal__pista">
+      <article class="panel">
+        <img src="assets/img/semilla.png" alt="" class="panel__img">
+        <div class="papel">
+          <p class="panel__k">12 años · tramo 1</p>
+          <h3>Semilleros</h3>
+          <p>La marimba te enseña matemáticas y la tradición oral te enseña a leer. Lo que importa aquí es una cosa: <strong>que sigas en la escuela</strong>.</p>
+          <p class="chip"><span data-dato="cupos.t1"></span> cupos por Azotea cada año · 8 a 13 años</p>
+        </div>
+      </article>
+      <article class="panel">
+        <img src="assets/img/brote.png" alt="" class="panel__img">
+        <div class="papel">
+          <p class="panel__k">15 años · tramo 2</p>
+          <h3>Aprendices del Territorio</h3>
+          <p><strong>Pasas a décimo.</strong> Aprendes con parteras, cantaoras y cocineras, conoces los oficios de tu tierra y escribes tu propia ruta.</p>
+          <p class="chip"><span data-dato="cupos.t2"></span> cupos por Azotea cada año · 14 a 17 años</p>
+        </div>
+      </article>
+      <article class="panel">
+        <img src="assets/img/planta-fruto.png" alt="" class="panel__img">
+        <div class="papel">
+          <p class="panel__k">19 años · tramo 3</p>
+          <h3>Cosecha</h3>
+          <p>Lo aprendido se vuelve oficio: <strong>certificación, empleo con aliados o un negocio propio</strong>.</p>
+          <p class="chip"><span data-dato="cupos.t3"></span> cupos por Azotea cada año · 18 a 28 años</p>
+        </div>
+      </article>
+      <article class="panel panel--fin">
+        <img src="assets/img/hojas-sol.png" alt="" class="panel__img">
+        <div class="papel">
+          <p class="panel__k">en todo el camino</p>
+          <h3>Si lo necesitas</h3>
+          <p>Salud mental y salud sexual y reproductiva, agentes de derechos y saberes ancestrales de cuidado. Y apoyo a las iniciativas económicas de tu territorio.</p>
+        </div>
+      </article>
+    </div>
+    <div class="horizontal__linea" aria-hidden="true"><span></span>
+      <b style="--x:12.5%">12</b><b style="--x:37.5%">15</b><b style="--x:62.5%">19</b><b style="--x:87.5%">→</b>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CAPÍTULO 5 · Quien enseña, cobra (sello que cae)
+     ========================================================= -->
+<section id="c5" class="portada portada--vino">
+  <p class="portada__num" aria-hidden="true">05</p>
+  <h2 class="portada__tit" data-palabras>Quien te enseña, cobra</h2>
+  <p class="portada__entra">Las personas que te enseñaron también tienen un oficio.</p>
+</section>
+
+<section class="escena escena--pago" data-pasos aria-label="Sembradores de saber remunerados">
+  <div class="escena__fija">
+    <div class="pago">
+      <div class="pago__notas">
+        <div class="papel papel--mini"><img src="assets/img/marimba.png" alt=""><span>marimbera</span></div>
+        <div class="papel papel--mini"><img src="assets/img/ave.png" alt="" class="inv"><span>cantaora</span></div>
+        <div class="papel papel--mini"><img src="assets/img/hojas-sol.png" alt=""><span>partera</span></div>
+        <div class="papel papel--mini"><img src="assets/img/planta-fruto.png" alt=""><span>matrona</span></div>
+      </div>
+      <p class="sello sello--verde" data-s="2-">oficio pagado</p>
+      <p class="pago__n" data-s="3-"><b class="cuenta" data-dato="metas_2030.sembradores">0</b><span>sembradores de saber remunerados en 2030</span></p>
+    </div>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>En Azotea, quienes te enseñan son <strong>portadoras y portadores de saber</strong> de tu propio territorio.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>Y reciben pago, <strong>porque enseñar también es un oficio</strong>.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p>Para 2030, serán <strong><span data-dato="metas_2030.sembradores"></span> sembradores de saber</strong> remunerados.</p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p>La meta que más importa: <strong>que ningún saber acompañado pierda vitalidad.</strong></p></div></div>
+  </div>
+</section>
+<div class="testimonios" data-capitulo="5" hidden></div>
+
+<!-- =========================================================
+     CAPÍTULO 6 · 2030 (línea de costa que se dibuja)
+     ========================================================= -->
+<section id="c6" class="portada portada--noche">
+  <p class="portada__num" aria-hidden="true">06</p>
+  <h2 class="portada__tit" data-palabras>Lo que se siembra aquí</h2>
+  <p class="portada__entra">De una Azotea en Buenaventura a una red en el litoral.</p>
+</section>
+
+<section class="escena escena--mapa" data-scrub="mapa" data-pasos aria-label="La red de Azoteas hacia 2030">
+  <div class="escena__fija">
+    <div class="mapa">
+      <svg viewBox="0 0 320 560" role="img" aria-label="Esquema del litoral Pacífico colombiano con seis Azoteas">
+        <path class="mapa__costa mapa__costa--fondo" d="M170 10 C160 55 138 78 146 120 C154 162 126 184 120 226 C114 268 138 290 128 322 C118 354 92 376 96 418 C100 460 70 482 56 524 L48 552"/>
+        <path class="mapa__costa mapa__costa--viva" d="M170 10 C160 55 138 78 146 120 C154 162 126 184 120 226 C114 268 138 290 128 322 C118 354 92 376 96 418 C100 460 70 482 56 524 L48 552"/>
+        <circle class="mapa__guia" r="6"/>
+        <g class="mapa__puntos"></g>
+        <text x="215" y="80" class="mapa__et">Chocó</text>
+        <text x="185" y="285" class="mapa__et">Valle · Buenaventura</text>
+        <text x="160" y="380" class="mapa__et">Cauca</text>
+        <text x="120" y="500" class="mapa__et">Nariño</text>
+        <text x="16" y="300" class="mapa__mar" transform="rotate(-82 16 300)">Océano Pacífico</text>
+      </svg>
+      <div class="mapa__hud">
+        <p><b class="hud-nodos">0</b><span>Azoteas</span></p>
+        <p><b class="hud-pers">0</b><span>niñas, niños y jóvenes</span></p>
+      </div>
+      <p class="nota">Esquema ilustrativo, no a escala. Las sedes se definen con el prediagnóstico.</p>
+    </div>
+  </div>
+  <div class="escena__pasos">
+    <div class="paso" data-n="1"><div class="papel"><p>Todo empieza en <strong>Buenaventura</strong>, en 2027.</p></div></div>
+    <div class="paso" data-n="2"><div class="papel"><p>Un prediagnóstico elige las siguientes entre <strong>8 y 10 candidatas</strong> del litoral: Chocó, Valle, Cauca y Nariño.</p></div></div>
+    <div class="paso" data-n="3"><div class="papel"><p>Para 2030, <strong><span data-dato="metas_2030.nodos"></span> Azoteas</strong>.</p></div></div>
+    <div class="paso" data-n="4"><div class="papel papel--rojo"><p><strong><span data-dato="metas_2030.personas" data-miles></span> niñas, niños y jóvenes</strong> sembrando su futuro, con resultados que se miden.</p></div></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CIERRE · vuelve al gancho
+     ========================================================= -->
+<section id="cierre" class="cierre">
+  <div class="cierre__in">
+    <p class="cierre__l" data-l="1">Lo que llega en lancha, se va.</p>
+    <p class="cierre__l" data-l="2">Lo que se siembra en alto, <em>se queda.</em></p>
+    <p class="cierre__l cierre__l--marca" data-l="3">Siembra en Azotea.</p>
+  </div>
+  <img src="assets/img/azotea-alta.png" alt="" class="cierre__azotea">
+  <svg class="cierre__olas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 Q90 10 180 40 T360 40 T540 40 T720 40 T900 40 T1080 40 T1260 40 T1440 40 V120 H0Z" fill="#2E8C83"/><path d="M0 75 Q90 50 180 75 T360 75 T540 75 T720 75 T900 75 T1080 75 T1260 75 T1440 75 V120 H0Z" fill="#0F5C5A"/><path d="M0 105 Q90 88 180 105 T360 105 T540 105 T720 105 T900 105 T1080 105 T1260 105 T1440 105 V120 H0Z" fill="#1d090e"/></svg>
+</section>
+
+<!-- =========================================================
+     DESPUÉS DEL RECORRIDO · video, aliados, cifras y fuentes
+     ========================================================= -->
+<section id="video" class="bloque">
+  <p class="bloque__k">La historia en 90 segundos</p>
+  <figure class="video papel papel--video">
+    <video id="vid" preload="none" playsinline controls poster="assets/video/poster.jpg" aria-label="Video explicativo de Azotea">
+      <source data-src-hd="assets/video/azotea-1080.mp4" data-src-sd="assets/video/azotea-720.mp4" type="video/mp4">
+    </video>
+  </figure>
+</section>
+
+<section id="aliados" class="bloque">
+  <p class="bloque__k">Para aliados</p>
+  <h2 class="bloque__h">Metas 2030</h2>
+  <div class="metas">
+    <div class="papel meta"><b data-dato="metas_2030.personas" data-miles></b><span>niñas, niños y jóvenes distintos (<span data-dato="metas_2030.inscripciones" data-miles></span> inscripciones)</span></div>
+    <div class="papel meta"><b><span data-dato="metas_2030.aprobacion"></span> %</b><span>de aprobación en participantes regulares de 8 a 17 años. Base Buenaventura 2023: <span data-dato="buenaventura_2023.aprobacion" data-dec="1"></span> %</span></div>
+    <div class="papel meta"><b data-dato="metas_2030.certificados" data-miles></b><span>certificados en oficios y rutas productivas</span></div>
+    <div class="papel meta"><b data-dato="metas_2030.empleo"></b><span>jóvenes con empleo o negocio a seis meses; al menos la mitad, mujeres</span></div>
+    <div class="papel meta"><b data-dato="metas_2030.sembradores"></b><span>sembradores de saber remunerados</span></div>
+    <div class="papel meta"><b data-dato="metas_2030.nodos"></b><span>Azoteas en el litoral Pacífico</span></div>
+  </div>
+  <p class="fuente-sello" data-fuente="jpc"></p>
+
+  <h2 class="bloque__h">Cómo se sabrá si funciona</h2>
+  <div class="papel papel--ancho medir">
+    <p><strong>Con grupo de comparación.</strong> Diferencias en diferencias con emparejamiento entre participantes y no participantes; sorteo de cupos donde haya más demanda que oferta.</p>
+    <p><strong>Resultado primario: aprobación y paso de 9.° a 10.°</strong>, con datos del SIMAT. El diseño detecta un efecto de <span data-dato="metas_2030.efecto_pp" data-dec="1"></span> puntos porcentuales.</p>
+    <p><strong>Además:</strong> inserción productiva a seis meses, vitalidad de cada saber acompañado y evaluación con los criterios OCDE-CAD.</p>
+    <p class="ods"><span class="o o3">ODS 3</span><span class="o o4">ODS 4</span><span class="o o5">ODS 5</span><span class="o o8">ODS 8</span><span class="o o10">ODS 10</span></p>
+  </div>
+
+  <h2 class="bloque__h">¿Qué siembra tu aporte?</h2>
+  <div class="papel papel--ancho calc">
+    <div class="conmuta" role="tablist" aria-label="Escenario de costeo">
+      <button role="tab" aria-selected="true" data-esc="completo">Escenario completo</button>
+      <button role="tab" aria-selected="false" data-esc="basico">Escenario básico</button>
+    </div>
+    <label for="aporte">Aporte: <output id="aporte-o">500</output> millones de pesos</label>
+    <input type="range" id="aporte" min="50" max="16762" step="50" value="500">
+    <div class="calc__chips">
+      <button data-v="250">250 M</button><button data-v="nodo">1 Azotea · 1 año</button><button data-v="anio1">Todo 2027</button><button data-v="total">La red completa</button>
+    </div>
+    <div class="calc__res" aria-live="polite">
+      <p><b id="c-pers">0</b><span>personas acompañadas durante los cuatro años</span></p>
+      <p><b id="c-mes">0</b><span>meses de una Azotea abierta en su primer año</span></p>
+      <p><b id="c-pct">0</b><span>de la red completa 2027–2030</span></p>
+    </div>
+    <p class="nota">Estimación lineal para dimensionar, no es una cotización. Total del proyecto: <span data-dato="inversion.completo.total" data-miles></span> millones (completo) o <span data-dato="inversion.basico.total" data-miles data-dec="1"></span> millones (básico).</p>
+  </div>
+</section>
+
+<section id="fuentes" class="bloque">
+  <p class="bloque__k">Cifras y fuentes</p>
+  <ul class="fuentes"></ul>
+</section>
+</main>
+
+<footer class="pie">
+  <img src="assets/img/logo-jpc.png" alt="Juntos por Colombia">
+  <p><strong>Azotea · Red de Nodos del Litoral Pacífico.</strong> Una iniciativa de Juntos por Colombia. El nombre «Azotea» se valida con las comunidades durante la activación territorial.</p>
+</footer>
+
+<dialog class="modal" id="modal-video" aria-label="Video de Azotea">
+  <button class="modal__cerrar" aria-label="Cerrar">×</button>
+  <video preload="none" playsinline controls poster="assets/video/poster.jpg"></video>
+</dialog>
+
+<script src="js/data.js"></script>
+<script src="js/testimonios.js"></script>
+<script src="js/scrolly.js" defer></script>
+</body>
+</html>
